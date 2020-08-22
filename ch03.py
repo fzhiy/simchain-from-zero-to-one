@@ -640,7 +640,7 @@ def crack_by_brute_force(G, K):
         if k*G == K:
             return k
         
-# BSGS(Baby step giant step 小步大步算法)
+# 2.BSGS(Baby step giant step 小步大步算法)
 # Python实现
 from math import sqrt, ceil
 def crack_by_bsgs(G, K):
@@ -659,3 +659,7 @@ def crack_by_bsgs(G, K):
             i = table[str(R)]
             return (i+j*m) % n
         
+'''
+3.
+目前 对椭圆曲线
+'''
